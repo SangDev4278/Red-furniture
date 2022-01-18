@@ -183,6 +183,9 @@ footer{
     height: 570px;
 
 }
+#copyright {
+    text-align: center;
+}
 #footer{
     width: 1200px;
     height: 100%;

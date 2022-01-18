@@ -70,8 +70,8 @@
                     <h3>Electronics</h3>
                     <!-- <p class="product-price">20000$ <span>/man</span></p> -->
                     <ul>
-                        <li><i class="fas fa-star small-icon"></i>LoremIpsum</li>
-                        <li><i class="fas fa-star small-icon"></i>LoremIpsum</li>
+                        <li><i class="fas fa-star small-icon"></i>In door</li>
+                        <li><i class="fas fa-star small-icon"></i>Out door</li>
                     </ul>
                     <a href="login.html" class="btn">Details</a>
                 </div>
@@ -81,8 +81,8 @@
                     <h3>Housware</h3>
                     <!-- <p class="product-price">15000$ <span>/each</span></p> -->
                     <ul>
-                        <li><i class="fas fa-star small-icon"></i>LoremIpsum</li>
-                        <li><i class="fas fa-star small-icon"></i>LoremIpsum</li>
+                        <li><i class="fas fa-star small-icon"></i>Kitchen</li>
+                        <li><i class="fas fa-star small-icon"></i>Furniture</li>
                     </ul>
                     <a href="login.html" class="btn">Details</a>
                 </div>
@@ -92,8 +92,8 @@
                     <h3>Interior</h3>
                     <!-- <p class="product-price">100000$ <span>/job</span></p> -->
                     <ul>
-                        <li><i class="fas fa-star small-icon"></i>LoremIpsum</li>
-                        <li><i class="fas fa-star small-icon"></i>LoremIpsum</li>
+                        <li><i class="fas fa-star small-icon"></i>Decoration</li>
+                        <li><i class="fas fa-star small-icon"></i>Repair tools</li>
                     </ul>
                     <a href="login.html" class="btn">Details</a>
                 </div>
@@ -105,7 +105,11 @@
         <div class="row">
             <div class="col span-1-of-3">
                 <blockquote>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum, dignissimos quo! Libero ratione pariatur eius hic cumque rem neque reprehenderit fugit distinctio aperiam accusantium corrupti, ducimus provident repellendus perspiciatis expedita.
+                    your light lights up my area perfectly
+                    before i bought this i was running an electric street light that was eating me up to the tune of $50-$60 a month
+                    its already paid for itself
+                    its a fine product
+                    i can highly recomend
                     <cite>
                         <img src="Resources/image/tai-hinh-chibi-bst.jpg" alt="person1"> David John
                     </cite>
@@ -113,17 +117,19 @@
             </div>
             <div class="col span-1-of-3">
                 <blockquote>
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolor eligendi in architecto, natus odio minus vero iure facere delectus quisquam dicta nesciunt non explicabo est voluptatibus, obcaecati perferendis molestiae neque.
+                    Works great so far. Light is very bright and it lasted All night long. It’s lifetime is the ultimate test. Looking forward to purchasing more.
                     <cite>
-                        <img src="Resources/image/tai-hinh-chibi-bst.jpg" alt="person1"> David John
+                        <img src="Resources/image/tai-hinh-chibi-bst.jpg" alt="person1"> John Cena
                     </cite>
                 </blockquote>
             </div>
             <div class="col span-1-of-3">
                 <blockquote>
-                   Lorem ipsum, dolor sit amet consectetur adipisicing elit. Autem porro distinctio eos aperiam animi itaque ad necessitatibus nesciunt maxime ducimus fuga, aliquam expedita velit, voluptate quisquam illo. Ea, laborum nam?
+                    Easy to install
+                    Planning to buy more
+                    For night security lights around my cabin
                     <cite>
-                        <img src="Resources/image/tai-hinh-chibi-bst.jpg" alt="person1"> David John
+                        <img src="Resources/image/tai-hinh-chibi-bst.jpg" alt="person1"> Kayn West
                     </cite>
                 </blockquote>
             </div>
@@ -202,13 +208,13 @@
                </ul>
            </div>
            <div class="col span-2-of-3">
-               <form>
+               <form action="#" id="send">
                    <div class="row">
                        <div class="col span-1-of-3">
                            <label>Name</label>
                        </div>
                        <div class="col span-2-of-3">
-                           <input type="text" placeholder="Your name">
+                           <input id = customerName type="text" placeholder="Your name">
                        </div>
                    </div>
                    <div class="row">
@@ -216,7 +222,7 @@
                            <label>Email</label>
                        </div>
                        <div class="col span-2-of-3">
-                           <input type="text" placeholder="Your email">
+                           <input id = customerEmail type="text" placeholder="Your email">
                        </div>
                    </div>
                    <div class="row">
@@ -224,7 +230,7 @@
                            <label>Message</label>
                        </div>
                        <div class="col span-2-of-3">
-                           <textarea placeholder="Your message"></textarea>
+                           <textarea id="customerMessage" placeholder="Your message"></textarea>
                        </div>
                    </div>
                    <div class="row">
@@ -239,8 +245,13 @@
                 Copyright &copy; 2077 by THE CREED
             </p>
         </footer>
-        <!--_
-        .__(.)< (MEOW)
-         \___)   
-  ~~~~~~~~~~~~~~~~~~ -->
-</body></html>
+        <script>
+            var cusName = document.getElementById('customerName');
+            var cusEmail = document.getElementById('customerEmail');
+            var cusMessage = document.getElementById('customerMessage');
+            var formSend = document.getElementById('send');
+
+            
+        </script>
+</body>
+</html>
